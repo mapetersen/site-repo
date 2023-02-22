@@ -6,27 +6,35 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "Anzahl der Personen die das Sozialhilfeportal nutzen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-2-1",
-          "title": "Anzahl der Repaircafes, Gemeinschaftswerkstätten und ReUse Shops in Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-2-1",
-          "status": "complete"
-        },
-        {
           "id": "1-3-1",
-          "title": "Armutsgefährdungsquote in Treptow-Köpenick",
+          "title": "Leistungsberechtigte nach SGB II und XII in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-2",
+          "title": "Kinderarmut in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/1-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-3",
+          "title": "Jugendarmut in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/1-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-4",
+          "title": "Altersarmut in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/1-3-4",
           "status": "complete"
         }]
     }
@@ -38,16 +46,8 @@
       "indicators": [
         
         {
-          "id": "2-1-1",
-          "title": "Öffentlich zugängliche Obstbäume und Beete",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-1-1",
-          "status": "complete"
-        },
-        {
           "id": "2-2-1",
-          "title": "Fair zertifizierte Lebensmittel in der Berliner Schulverpflegung",
+          "title": "Kinder mit Übergewicht in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/2-2-1",
@@ -55,10 +55,18 @@
         },
         {
           "id": "2-3-1",
-          "title": "Kilogramm gerettete Lebensmittel (Foodsharing)",
+          "title": "Ökologische Landwirtschaft in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/2-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-2",
+          "title": "Stickstoffüberschuss der Landwirtschaft in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/2-3-2",
           "status": "complete"
         }]
     }
@@ -70,51 +78,35 @@
       "indicators": [
         
         {
-          "id": "3-1-1",
-          "title": "Stadtradeln - Anzahl der Personen die teilnehmen",
+          "id": "3-4-1",
+          "title": "Vorzeitige Sterblichkeit in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-1",
+          "href": "/site-repo/3-4-1",
           "status": "complete"
         },
         {
-          "id": "3-1-2",
-          "title": "Stadtradeln - Mit Fahrrad gefahrene Kilometer",
+          "id": "3-8-1",
+          "title": "Ärzteversorgung in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-2",
+          "href": "/site-repo/3-8-1",
           "status": "complete"
         },
         {
-          "id": "3-1-3",
-          "title": "Stadtradeln - Kilogramm CO2 eingespart",
+          "id": "3-8-2",
+          "title": "Personal in Pflegeheimen in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-3",
+          "href": "/site-repo/3-8-2",
           "status": "complete"
         },
         {
-          "id": "3-2-1",
-          "title": "Relative Lärmbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
+          "id": "3-8-3",
+          "title": "Personal in Pflegediensten in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-1",
-          "title": "Relative Luftbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "3-3-2",
-          "title": "Grenzwertüberschreitungen Luftverschmutzung in Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-3-2",
+          "href": "/site-repo/3-8-3",
           "status": "complete"
         }]
     }
@@ -127,7 +119,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Anzahl der Schulen in Treptow-Köpenick die pro Jahr an der Lernkonferenz teilnehmen",
+          "title": "Schulabbrecherquote in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-1-1",
@@ -135,34 +127,34 @@
         },
         {
           "id": "4-2-1",
-          "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für das pädagogische Personal an Schulen in Treptow-Köpenick",
+          "title": "Tagesbetreuung in Einrichtungen - Kinder unter 3-Jahren in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-2-1",
           "status": "complete"
         },
         {
-          "id": "4-3-1",
-          "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BNE) und SDGs",
+          "id": "4-2-2",
+          "title": "Tagesbetreuung in Einrichtungen - Kinder von- 3- bis 5-Jahre in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-3-1",
-          "status": "notstarted"
+          "href": "/site-repo/4-2-2",
+          "status": "complete"
         },
         {
-          "id": "4-4-1",
-          "title": "Noch zu definieren",
+          "id": "4-7-1",
+          "title": "Nachhaltige Schulen in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-4-1",
-          "status": "notstarted"
+          "href": "/site-repo/4-7-1",
+          "status": "complete"
         },
         {
-          "id": "4-5-1",
-          "title": "Projektteilnehmer des Projektes 'Umweltschule in Europa - Internationale Nachhaltigkeitsschule'",
+          "id": "4-a-1",
+          "title": "Exklusionsquote in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-5-1",
+          "href": "/site-repo/4-a-1",
           "status": "complete"
         }]
     }
@@ -175,39 +167,23 @@
         
         {
           "id": "5-1-1",
-          "title": "Anzahl der Schulen in die am Projekttag teilnehmen",
+          "title": "Beschäftigungsquote von Frauen in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-1",
-          "title": "Anzahl der angebotenen Schulungen des Bezirksamts zum gendersensiblen Sprachgebrauch",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-2-1",
           "status": "complete"
         },
         {
-          "id": "5-3-1",
-          "title": "Anzahl der Projekte, Anlaufpunkte und Beratungsangebote für Mädchen und junge Frauen in Treptow-Köpenick",
+          "id": "5-1-2",
+          "title": "Verdienstabstand zwischen Frauen und Männern in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/5-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "5-4-1",
-          "title": "Frauenanteil in den Leitungspositionen des höheren Dienstes",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-4-1",
+          "href": "/site-repo/5-1-2",
           "status": "complete"
         },
         {
           "id": "5-5-1",
-          "title": "Frauenanteil in der Bezirksverordnetenversammlung (BVV) Treptow-Köpenicks",
+          "title": "Frauenanteil im Kreistag Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-5-1",
@@ -222,27 +198,19 @@
       "indicators": [
         
         {
-          "id": "6-1-1",
-          "title": "Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-1-1",
-          "status": "complete"
-        },
-        {
-          "id": "6-2-1",
-          "title": "Anzahl außerschulischer Einrichtungen der Natur- und Umweltbildung / Bildung für Nachhaltige Entwicklung (BNE)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-2-1",
-          "status": "complete"
-        },
-        {
           "id": "6-3-1",
-          "title": "Badegewässerqualität der Badestellen innerhalb des Bezirks Treptow-Köpenick",
+          "title": "Abwasserbehandlung in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/6-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-2",
+          "title": "Nitrat im Grundwasser in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/6-3-2",
           "status": "complete"
         }]
     }
@@ -254,51 +222,11 @@
       "indicators": [
         
         {
-          "id": "7-1-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-1-1",
-          "status": "notstarted"
-        },
-        {
           "id": "7-2-1",
-          "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden",
+          "title": "Windenergieerzeugung in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/7-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "7-2-2",
-          "title": "Stromerzeugung auf bezirkseigenen Gebäuden (kWh/Jahr)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-2-2",
-          "status": "complete"
-        },
-        {
-          "id": "7-3-1",
-          "title": "Photovoltaik - Summe der Anlagen im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "7-3-2",
-          "title": "Photovoltaik - Stromeinspeisung im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "7-3-3",
-          "title": "Solarthermie - Summe der Anlagen im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-3-3",
           "status": "complete"
         }]
     }
@@ -311,58 +239,34 @@
         
         {
           "id": "8-1-1",
-          "title": "Anzahl der Unternehmen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
+          "title": "Bruttoinlandsprodukt in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-1-1",
           "status": "complete"
         },
         {
-          "id": "8-2-1",
-          "title": "Anzahl der Teilnehmenden am Mentoringprogramm",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-2-2",
-          "title": "Anteil der Bewerber*innen mit Einwanderungsgeschichte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-3-1",
-          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-3-2",
-          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte in Führungspositionen der Kommunalverwaltung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-1",
-          "title": "Anzahl der kommunalen Einrichtungen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-4-1",
-          "status": "complete"
-        },
-        {
           "id": "8-5-1",
-          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)",
+          "title": "Langzeitarbeitslosenquote in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2",
+          "title": "Beschäftigungsquote in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/8-5-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-3",
+          "title": "Erwerbstätige mit ALG II-Bezug (Aufstocker) in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/8-5-3",
           "status": "complete"
         }]
     }
@@ -374,35 +278,35 @@
       "indicators": [
         
         {
-          "id": "9-1-1",
-          "title": "Anzahl der Ladestationen für E-Autos",
+          "id": "9-5-1",
+          "title": "Existenzgründungen in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-1-1",
+          "href": "/site-repo/9-5-1",
           "status": "complete"
         },
         {
-          "id": "9-1-2",
-          "title": "Stromverbrauch an Elektro-Ladesäulen",
+          "id": "9-5-2",
+          "title": "Hochqualifizierte in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-1-2",
+          "href": "/site-repo/9-5-2",
           "status": "complete"
         },
         {
-          "id": "9-2-1",
-          "title": "Anzahl öffentlicher Einrichtungen mit freiem WLAN Zugang",
+          "id": "9-5-3",
+          "title": "global_indicators.9-5-3-title",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-2-1",
+          "href": "/site-repo/9-5-3",
           "status": "complete"
         },
         {
-          "id": "9-3-1",
-          "title": "Breitband Verfügbarkeit Mbit/s in %",
+          "id": "9-c-1",
+          "title": "Breitbandversorgung in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-3-1",
+          "href": "/site-repo/9-c-1",
           "status": "complete"
         }]
     }
@@ -414,35 +318,43 @@
       "indicators": [
         
         {
-          "id": "10-1-1",
-          "title": "Anteil mehrsprachiger Informationsmaterialien",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-1-1",
-          "status": "notstarted"
-        },
-        {
           "id": "10-2-1",
-          "title": "Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung",
+          "title": "Beschäftigungsquote von Ausländern in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "10-3-1",
-          "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen",
+          "id": "10-2-2",
+          "title": "Schulabbrecherquote von Ausländern in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/10-3-1",
+          "href": "/site-repo/10-2-2",
           "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick",
+          "title": "Haushalte mit niedrigem Einkommen in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-2",
+          "title": "Haushalte mit mittlerem Einkommen in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/10-4-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-3",
+          "title": "Haushalte mit hohem Einkommen in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/10-4-3",
           "status": "complete"
         }]
     }
@@ -455,7 +367,7 @@
         
         {
           "id": "11-1-1",
-          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
+          "title": "Wohnfläche pro Einwohner in Deutschland West",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-1-1",
@@ -463,15 +375,23 @@
         },
         {
           "id": "11-1-2",
-          "title": "Anzahl der Ausleihen von Lastenrädern",
+          "title": "Mietpreise in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-1-2",
           "status": "complete"
         },
         {
+          "id": "11-1-3",
+          "title": "Wohnortnahe Grundversorgung in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/11-1-3",
+          "status": "complete"
+        },
+        {
           "id": "11-2-1",
-          "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)",
+          "title": "Modal Split in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-2-1",
@@ -479,7 +399,7 @@
         },
         {
           "id": "11-2-2",
-          "title": "Anzahl der Imker im Bezirk",
+          "title": "Verunglückte im Verkehr in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-2-2",
@@ -487,42 +407,34 @@
         },
         {
           "id": "11-2-3",
-          "title": "Anzahl der Bienenvölker im Bezirk",
+          "title": "PKW-Dichte in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-2-3",
           "status": "complete"
         },
         {
+          "id": "11-2-4",
+          "title": "PKW mit umweltfreundlichem Antrieb in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/11-2-4",
+          "status": "complete"
+        },
+        {
           "id": "11-3-1",
-          "title": "Anzahl Baumscheibenpatinnen und -paten",
+          "title": "Flächenverbrauch in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-3-1",
           "status": "complete"
         },
         {
-          "id": "11-4-1",
-          "title": "Häufigkeit der auf Wegen genutzten Verkehrsmittel in Treptow-Köpenick",
+          "id": "11-7-1",
+          "title": "Naherholungsflächen in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-4-1",
-          "status": "complete"
-        },
-        {
-          "id": "11-5-1",
-          "title": "Sport-, Freizeit- und Erholungsfläche in Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-5-1",
-          "status": "complete"
-        },
-        {
-          "id": "11-5-2",
-          "title": "Versorgung mit öffentlichen Grünflächen insgesamt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-5-2",
+          "href": "/site-repo/11-7-1",
           "status": "complete"
         }]
     }
@@ -535,42 +447,50 @@
         
         {
           "id": "12-1-1",
-          "title": "Anzahl der Fortbildungen zu nachhaltiger und fairer Beschaffung pro Jahr",
+          "title": "Fair Trade Towns in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-1-1",
           "status": "complete"
         },
         {
+          "id": "12-1-2",
+          "title": "Fair Trade Schulen in Nordfriesland",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/12-1-2",
+          "status": "complete"
+        },
+        {
           "id": "12-2-1",
-          "title": "Anzahl der Kirchengemeinden die Teil der Fairtrade Town Kampagne sind",
+          "title": "Trinkwasserverbrauch in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-2-1",
           "status": "complete"
         },
         {
-          "id": "12-2-2",
-          "title": "Anzahl der Kirchengemeinden mit dem Siegel 'Faire Gemeinde' im Bezirk",
+          "id": "12-5-1",
+          "title": "Abfallmenge in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-2-2",
+          "href": "/site-repo/12-5-1",
           "status": "complete"
         },
         {
-          "id": "12-3-1",
-          "title": "Stand der Zertifizierung der Kommune als Fairtrade Town",
+          "id": "12-6-1",
+          "title": "EMAS-zertifizierte Standorte in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-3-1",
+          "href": "/site-repo/12-6-1",
           "status": "complete"
         },
         {
-          "id": "12-4-1",
-          "title": "Anzahl der Fairtrade Schulen in Treptow-Köpenick",
+          "id": "12-7-1",
+          "title": "Stand nachhaltiger Beschaffung in nordfriesischen Verwaltungen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-4-1",
+          "href": "/site-repo/12-7-1",
           "status": "complete"
         }]
     }
@@ -583,50 +503,10 @@
         
         {
           "id": "13-1-1",
-          "title": "Stellenanteile für das Klimaschutzmanagement",
+          "title": "Stellenanteile Klimaschutzmanagement der Koimmunalverwaltungen in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-1-1",
-          "status": "complete"
-        },
-        {
-          "id": "13-1-2",
-          "title": "Index Kommunaler Klimaschutz",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-1-2",
-          "status": "complete"
-        },
-        {
-          "id": "13-2-1",
-          "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "13-2-2",
-          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-2-2",
-          "status": "complete"
-        },
-        {
-          "id": "13-2-3",
-          "title": "Kilometer Radschnellwege im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-2-3",
-          "status": "complete"
-        },
-        {
-          "id": "13-3-1",
-          "title": "CO2-Emissionen aus dem Endenergieverbrauch (Verursacherbilanz)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-3-1",
           "status": "complete"
         }]
     }
@@ -639,27 +519,11 @@
         
         {
           "id": "14-1-1",
-          "title": "Rote Liste Einstufung der in Berliner Gewässern vorkommenden Fischarten",
+          "title": "Fließwasserqualität in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/14-1-1",
           "status": "complete"
-        },
-        {
-          "id": "14-2-1",
-          "title": "Anzahl der Anwohnerinnen die an der Sprechstunde der Ranger teilnehmen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-3-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-3-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -671,35 +535,11 @@
         
         {
           "id": "15-1-1",
-          "title": "Index Kommunale Klimaanpassung",
+          "title": "Nachhaltige Forstwirtschaft in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/15-1-1",
           "status": "complete"
-        },
-        {
-          "id": "15-2-1",
-          "title": "Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "15-3-1",
-          "title": "Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "15-4-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-4-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -710,124 +550,36 @@
       "indicators": [
         
         {
-          "id": "16-1-1",
-          "title": "Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-1-1",
-          "status": "complete"
-        },
-        {
-          "id": "16-2-1",
-          "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "16-3-1",
-          "title": "Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-3-1",
-          "status": "complete"
-        },
-        {
           "id": "16-4-1",
-          "title": "Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen",
+          "title": "Straftaten in Nordfriesland",
           "description": "",
           "keywords": "",
           "href": "/site-repo/16-4-1",
           "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "17",
-      "title": "Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen",
-      "indicators": [
-        
+        },
         {
-          "id": "17-1-1",
-          "title": "Anzahl der Aktivitäten mit Partnerstädten und Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr",
+          "id": "16-6-1",
+          "title": "Verschuldung im Kernhaushalt Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-1-1",
+          "href": "/site-repo/16-6-1",
           "status": "complete"
         },
         {
-          "id": "17-2-1",
-          "title": "Menge verkaufter Packungen Fairtrade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr",
+          "id": "16-7-1",
+          "title": "Informelle Bürgerbeteiligung in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-2-1",
+          "href": "/site-repo/16-7-1",
           "status": "complete"
         },
         {
-          "id": "17-3-1",
-          "title": "Städtepartnerschaften",
+          "id": "16-7-2",
+          "title": "Wahlbeteiligung in Nordfriesland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-3-1",
+          "href": "/site-repo/16-7-2",
           "status": "complete"
-        },
-        {
-          "id": "17-3-2",
-          "title": "Gemeindeprojekte und -partnerschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-3",
-          "title": "Schulpartnerschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-3",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-4",
-          "title": "Weitere zivilgesellschaftliche Projekte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-5",
-          "title": "Fairer Handel",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-5",
-          "status": "complete"
-        },
-        {
-          "id": "17-4-1",
-          "title": "Eine-Welt-Projekte und Partnerschaften im Bezirk Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-4-1",
-          "status": "complete"
-        },
-        {
-          "id": "17-5-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-6-1",
-          "title": "Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-6-1",
-          "status": "notstarted"
         }]
     }
   }]
