@@ -191,6 +191,15 @@ h1.header {
 
 
 /*#2. goal page */
+.previous-next-links.row {
+  position: relative;
+  top: -170px;
+  left: 4vw;
+}
+.col-md-auto {
+  width: 25%;
+}
+
 @for $i from 1 through length($goal-banner-backgroundColors) {
   $background-c: nth($goal-banner-backgroundColors, $i);
 
@@ -209,16 +218,6 @@ h1.header {
       }
       .container{
         height: 200px;
-      }
-      .btn-left{
-        position: relative;
-        top: -175px;
-        left: 250px;
-      }
-      .btn-right{
-       position: relative;
-       top: -175px;
-       right: -730px;
       }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,75%);
@@ -371,8 +370,8 @@ transform: translateX(0);
 .carousel-control-prev,
 .carousel-control-next {
   top: 50%;
-  margin-right: -5.5rem;
-  margin-left: -5.5rem;
+  margin-right: -6rem;
+  margin-left: -6rem;
   transform: translateY(-50%);
   text-decoration: none !important;
 }
