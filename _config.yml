@@ -10,7 +10,6 @@ metadata_edit_url: http://prose.io/#mapetersen/data-repo/edit/develop/meta/[id].
 
 languages:
   - de
-  - en
 
 country: # or place name
   name: Nordfriesland
