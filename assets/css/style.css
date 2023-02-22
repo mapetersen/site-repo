@@ -2772,6 +2772,14 @@ h1.header {
   color: #1d70b8 !important; }
 
 /*#2. goal page */
+.previous-next-links.row {
+  position: relative;
+  top: -170px;
+  left: 4vw; }
+
+.col-md-auto {
+  width: 25%; }
+
 /* goal-navigation-top */
 .goal-1 {
   /* main content for goals and indicators */ }
@@ -2787,14 +2795,6 @@ h1.header {
       margin-top: -25px; }
     .goal-1.goal-banner .container {
       height: 200px; }
-    .goal-1.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-1.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-1.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-1.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2822,14 +2822,6 @@ h1.header {
       margin-top: -25px; }
     .goal-2.goal-banner .container {
       height: 200px; }
-    .goal-2.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-2.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-2.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-2.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2857,14 +2849,6 @@ h1.header {
       margin-top: -25px; }
     .goal-3.goal-banner .container {
       height: 200px; }
-    .goal-3.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-3.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-3.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-3.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2892,14 +2876,6 @@ h1.header {
       margin-top: -25px; }
     .goal-4.goal-banner .container {
       height: 200px; }
-    .goal-4.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-4.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-4.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-4.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2927,14 +2903,6 @@ h1.header {
       margin-top: -25px; }
     .goal-5.goal-banner .container {
       height: 200px; }
-    .goal-5.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-5.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-5.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-5.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2962,14 +2930,6 @@ h1.header {
       margin-top: -25px; }
     .goal-6.goal-banner .container {
       height: 200px; }
-    .goal-6.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-6.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-6.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-6.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2997,14 +2957,6 @@ h1.header {
       margin-top: -25px; }
     .goal-7.goal-banner .container {
       height: 200px; }
-    .goal-7.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-7.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-7.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-7.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3032,14 +2984,6 @@ h1.header {
       margin-top: -25px; }
     .goal-8.goal-banner .container {
       height: 200px; }
-    .goal-8.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-8.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-8.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-8.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3067,14 +3011,6 @@ h1.header {
       margin-top: -25px; }
     .goal-9.goal-banner .container {
       height: 200px; }
-    .goal-9.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-9.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-9.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-9.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3102,14 +3038,6 @@ h1.header {
       margin-top: -25px; }
     .goal-10.goal-banner .container {
       height: 200px; }
-    .goal-10.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-10.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-10.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-10.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3137,14 +3065,6 @@ h1.header {
       margin-top: -25px; }
     .goal-11.goal-banner .container {
       height: 200px; }
-    .goal-11.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-11.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-11.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-11.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3172,14 +3092,6 @@ h1.header {
       margin-top: -25px; }
     .goal-12.goal-banner .container {
       height: 200px; }
-    .goal-12.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-12.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-12.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-12.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3207,14 +3119,6 @@ h1.header {
       margin-top: -25px; }
     .goal-13.goal-banner .container {
       height: 200px; }
-    .goal-13.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-13.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-13.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-13.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3242,14 +3146,6 @@ h1.header {
       margin-top: -25px; }
     .goal-14.goal-banner .container {
       height: 200px; }
-    .goal-14.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-14.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-14.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-14.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3277,14 +3173,6 @@ h1.header {
       margin-top: -25px; }
     .goal-15.goal-banner .container {
       height: 200px; }
-    .goal-15.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-15.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-15.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-15.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3312,14 +3200,6 @@ h1.header {
       margin-top: -25px; }
     .goal-16.goal-banner .container {
       height: 200px; }
-    .goal-16.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-16.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-16.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-16.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3347,14 +3227,6 @@ h1.header {
       margin-top: -25px; }
     .goal-17.goal-banner .container {
       height: 200px; }
-    .goal-17.goal-banner .btn-left {
-      position: relative;
-      top: -175px;
-      left: 250px; }
-    .goal-17.goal-banner .btn-right {
-      position: relative;
-      top: -175px;
-      right: -730px; }
     .goal-17.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-17.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3484,8 +3356,8 @@ body.contrast-high .goal-banner img {
 .carousel-control-prev,
 .carousel-control-next {
   top: 50%;
-  margin-right: -5.5rem;
-  margin-left: -5.5rem;
+  margin-right: -6rem;
+  margin-left: -6rem;
   transform: translateY(-50%);
   text-decoration: none !important; }
 
