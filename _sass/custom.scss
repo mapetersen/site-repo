@@ -252,13 +252,6 @@ h1.header {
     .indicator-name {
       width: 75%;
     }
-    .status {
-      position: absolute;
-      right: 0;
-      top: 0;
-      margin-top: 0;
-      width: min-content;
-    }
   }
   @media screen and (min-width: 992px) {
     min-height: auto;
