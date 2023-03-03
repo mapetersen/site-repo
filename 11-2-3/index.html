@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230302142935">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230303033756">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -393,7 +393,15 @@ data-event-label="high"
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>lorem ipson</p>
+    <p>Die Anzahl an zugelassenen Personenkraftwagen (PKW) steigt seit Jahren kontinuierlich an. Dies verschärft die Verteilungsproblematik des öffentlichen Raumes sowohl auf dem Land, als auch in den Städten erheblich und konterkariert die Bestrebungen, Verkehrssysteme nachhaltiger und vor allem zugänglicher zu gestalten. Die Konsequenz von Politik und Verwaltung, auf hohe PKW-Dichten mit einem Ausbau der Infrastruktur zu reagieren, führt erwiesenermaßen zu einer umso höheren Auslastung der Infrastruktur. Zusätzlich hat der Infrastrukturausbau weitreichende Konsequenzen für die Lebensqualität und das Wohlbefinden der Menschen, die in der Nähe einer (stark befahrenen) Straße wohnen. Aufgrund der Lärm- und Schadstoffbelastung sind solche Wohnlagen besonders oft von einkommensschwachen Personen bewohnt. Dadurch gewinnt die soziale Dimension von Nachhaltigkeit noch zusätzlich an Bedeutung. Da insbesondere die Infrastruktur des motorisierten Individualverkehrs auch erhebliche ökonomische und ökologische Kosten mit sich bringt, folgt eine Reduktion des PKW-Aufkommens dem Prinzip der Ganzheitlichkeit.</p>
+
+<p>Der Indikator lässt keinen Rückschluss darauf zu, in welchem Verhältnis die PKW-Dichte zu Determinanten der Nachhaltigkeit von Verkehrssystemen steht. So schließt ein gut ausgebauter öffentlicher Personennahverkehr mit relativ geringen Stauzeiten eine gleichzeitig hohe PKW-Dichte nicht zwangsläufig aus. Insgesamt spiegelt der Indikator daher nur mit Einschränkung das Unterziel inhaltlich wider.</p>
+
+<p>Die PKW-Dichte steht in positivem Zusammenhang mit der wohnungsnahen Apotheken- (SDG 3.8) und Supermarktversorgung (SDG 11.1) sowie der Wohnfläche (SDG 11.1). Dagegen besteht eine negative Korrelation zu den Armutsindikatoren (SDG 1.3, 1.3), der Flächeninanspruchnahme (SDG 11.3), der Landschaftsqualität (SDG 15.5) und der Anzahl an Straftaten (SDG 16.4).</p>
+
+<p>Der Indikator korreliert negativ mit der Einwohner:innendichte. Es bestehen außerdem ein schwach negativer Zusammenhang zum Anteil der Beschäftigten im tertiären Sektor und ein schwach positiver Zusammenhang zum Anteil der Freiraumflächen an Gebietsfläche.</p>
+
+<p>Das Kraftfahrtbundesamt (KBA) liefert mit seinen Statistiken auf Grundlage der Zentralen Register über Kraftfahrer:innen und Fahrzeuge Beiträge zur nationalen und zur europäischen Statistik. Der Bestand wird jeweils zum 1. Januar eines Jahres auf Gemeindeebene erfasst. Zusätzlich werden monatlich Neuzulassungen nach einer Vielzahl von Umwelt-, Marken- und Segment-Merkmalen erfasst. Die Datenqualität ist nicht durch Messfehler verzerrt und somit vollständig und repräsentativ.</p>
 
   </div>
 </div>
@@ -410,7 +418,7 @@ data-event-label="high"
   data-country="Kreis Nordfriesland"
   data-charttitle="PKW-Dichte in Nordfriesland"
   data-charttitles="null"
-  data-measurementunit="Prozent"
+  data-measurementunit="Anzahl private PKW / Anzahl Einwohner * 1.000"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -646,7 +654,7 @@ data-event-label="high"
     <p>Geographische Abdeckung: Kreis Nordfriesland</p>
     
     
-    <p>Einheit: Prozent</p>
+    <p>Einheit: Anzahl private PKW / Anzahl Einwohner * 1.000</p>
     
     
   </div>
@@ -963,19 +971,12 @@ data-event-label="Change to Sources tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Im Jahr z waren im Kreis Nordfriesland x PKW je 1.000 Einwohner zugelassen.</p>
 
           
         </td>
@@ -991,7 +992,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Prozent</p>
+            <p>Anzahl private PKW / Anzahl Einwohner * 1.000</p>
 
           
         </td>
@@ -1064,19 +1065,12 @@ data-event-label="Change to Sources tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Kraftfahrtbundesamt</p>
 
           
         </td>
@@ -1507,12 +1501,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230302142935'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230303033756'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230302142935"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230303033756"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
