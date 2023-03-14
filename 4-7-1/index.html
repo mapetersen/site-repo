@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230314013427">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230314123736">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -166,8 +166,8 @@ layout-indicator
 </div>
 
 
-<div style="position: sticky;  position: -webkit-sticky; top: 15px; z-index:3; background-color: white;">
-    <div id="color-bar-background"  style="position: relative;"> </div>
+<div style="position: sticky; position: -webkit-sticky; z-index:3; background-color: white;">
+    <div id="color-bar-background" style="position: relative;"> </div>
 
     <header role="banner" class="">
         <div class="container" style="top: 0px;">
@@ -182,13 +182,11 @@ layout-indicator
     onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
 
-                
                 <h1 class="header">
                     Monitoring der <br>
                     Kommunalen Nachhaltigkeitsstrategie <br>
                     Kreis Nordfriesland
                 </h1>
-                
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
                     <span class="navbar-toggler-icon"></span>
@@ -239,32 +237,26 @@ data-event-label="high"
 
 <div class="heading goal-banner goal-4"> 
   <div class="container" id="goal-nav-top">
-    <div class="row">
-      <div class="Image">
-        
-        
-        <img src="/site-repo/assets/img/goals/de/4.png" alt="Hochwertige Bildung - Ziel 4" id="goal-4"  />
-        
-       
 
-      </div>
-    </div>
     
-    <div class="previous-next-links row justify-content-md-center">
-      <div class="col col-lg-2 float-start">
+    <div class="previous-next-links row d-flex align-items-center justify-content-evenly">
+      <div class="col text-center">
         <a href="/site-repo/4-2-2" class="btn btn-primary goal-4 btn-left goal-banner" role="button">
-          <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs"></span>
+          <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 2.8vw;"></i> <span id="previous-link" class="hidden-sm hidden-xs"></span>
         </a>
       </div>
-      <div class="col col-md-auto"></div>
-      <div class="col col-lg-2 float-end">
+      <div class="Image col-4">
+        <img class="img-fluid" src="/site-repo/assets/img/goals/de/4.png" alt="Hochwertige Bildung - Ziel 4" id="goal-4"  />
+      </div>
+      <div class="col text-center">
         <a href="/site-repo/4-a-1" class="btn btn-primary goal-4 btn-right goal-banner" role="button">
-          <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs"></span>
+          <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 2.8vw;"></i><span id="next-link" class="hidden-sm hidden-xs"></span>
         </a>
       </div>
     </div>
     
-  </div>
+
+    </div>
   </div>
 
 
@@ -355,16 +347,13 @@ data-event-label="high"
             <a href="/site-repo/">Startseite</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="/site-repo/goals">Ziele</a>
-        </li>
-        
-        <li class="breadcrumb-item">
             <a href="/site-repo/4"
                title="Ziel 4 - Hochwertige Bildung"
                aria-label="Ziel  - ">
                Ziel 4
             </a>
         </li>
+        <li class="breadcrumb-item active">Indikator 4.7.1</li>
         
     </ol>
 </nav>
@@ -1323,53 +1312,39 @@ data-event-label="Change to Sources tab"
 </div>
 
 
-<footer role="contentinfo" style="padding-top: 65px;">
+<footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
-                    
                     <p>Unsere Projektpartner</p>
-                    
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection" style="padding: 1em; margin-bottom: 2%;">
+        <div class="row flexdirection justify-content-around">
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder3" style="background-color:white;">
-                    
+                <div id="bilder3" style="background-color:white; padding-top: 1.5rem;">
+                    <!-- <h5 style="margin-top: 3%; margin-bottom: 2%;">Gefördert durch</h5> -->
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
-                    
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder2" style="background-color:white">
-                    
+                <div id="bilder2" style="background-color:white;">
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
-                </div>
-            </div>
-            <div class="col-xs-3" id="footer-binder">
-                <div id="bilder4" style="background-color:white;">
-                    
+                <div id="bilder4" style="background-color:white; padding-top: 1.4rem;">
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    
                 </div>
             </div>
          </div>
@@ -1377,25 +1352,25 @@ data-event-label="Change to Sources tab"
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
-                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                <div id="footerLinks" style="background-color:#353a90;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                                        <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">Download</a>
                                         
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
+                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Kontakt</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                                    <a href="/site-repo/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Impressum</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
+                                    <a href="/site-repo/guidance" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Technische Hinweise</a>
                                     
                                     </li>
                             
@@ -1408,14 +1383,12 @@ data-event-label="Change to Sources tab"
     <div class="container">
         <div class="row" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
-                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
-                    <ul style="text-align: center;"
-                    
-                    <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
-                    </li>
-                    
-                </ul>
+                <div id="footerende" style="background-color:#353a90;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                    <ul style="text-align: center;">
+                        <li style="color:white;margin: 15px;font-weight: bold; list-style-type: none;">
+                            <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none; color:white; margin:10px; font-size:15px;">Diese Webseite wurde mit Open SDG erstellt</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -1447,12 +1420,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230314013427'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230314123736'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230314013427"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230314123736"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

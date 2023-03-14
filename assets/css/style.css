@@ -388,7 +388,7 @@ table thead th[aria-sort="ascending"] .fa-sort {
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #0b0c0c; }
 
 body.contrast-high {
@@ -1512,7 +1512,7 @@ body.contrast-high .previous-next-links .btn-primary span {
   clear: both;
   margin-bottom: 10px; }
   .publication .publication-title {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 7px !important; }
   .publication .publication-description p:last-child {
     margin-bottom: 0.5rem; }
@@ -1525,7 +1525,7 @@ body.contrast-high .previous-next-links .btn-primary span {
     padding: 0;
     margin: 0 0 10px 0; }
 #related_indicators .related-indicator-goal {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold; }
 
 #main-content .nav-tabs {
@@ -1596,7 +1596,7 @@ body.contrast-high #main-content .nav-tabs {
   .layout-goal .goal-page-target-number h3 {
     line-height: 1.5; }
   .layout-goal .goal-page-target-number .goal-target {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 0; }
 .layout-goal .goal-target {
   margin-top: 0; }
@@ -1604,17 +1604,17 @@ body.contrast-high #main-content .nav-tabs {
   margin-top: 20px; }
 .layout-goal .goal-page-target-rule, .layout-goal .goal-page-column-header-rule {
   border: 0;
-  border-top: 0.1px solid #ccc;
+  border-top: 0.1px solid white;
   margin-bottom: 25px;
   opacity: 1;
   height: 0.1px; }
 .layout-goal .goal-page-indicator-number {
   min-width: 60px; }
   .layout-goal .goal-page-indicator-number h4 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5; }
   .layout-goal .goal-page-indicator-number .indicator-number {
-    font-size: 16px; }
+    font-size: 20px; }
 .layout-goal .goal-page-indicator-progress {
   margin-left: 60px; }
 @media only screen and (min-width: 992px) {
@@ -1724,7 +1724,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
     border-radius: 4px;
     width: 40px;
     text-align: center;
-    font-size: 16px; }
+    font-size: 20px; }
     .layout-reportingstatus #main-content .statuses > div .status .status-inner {
       padding: 0 2px;
       border-radius: 5px; }
@@ -1800,7 +1800,7 @@ body.contrast-high .indicator.goal-banner .goal-tiles img {
   border-bottom: 1px solid #ccc; }
   .layout-reportingstatus #main-content .goal .total {
     line-height: 1.2;
-    font-size: 16px;
+    font-size: 20px;
     width: auto;
     padding-left: 4px;
     padding-right: 4px;
@@ -2148,7 +2148,7 @@ body.contrast-high.layout-config-builder .config-repository-button span {
             margin-top: 10px; }
         #main-content #map .disaggregation-controls .disaggregation-form-outer .disaggregation-form .disaggregation-label {
           display: block;
-          font-size: 16px; }
+          font-size: 20px; }
           #main-content #map .disaggregation-controls .disaggregation-form-outer .disaggregation-form .disaggregation-label .disaggregation-input {
             margin-right: 10px; }
         #main-content #map .disaggregation-controls .disaggregation-form-outer .disaggregation-form .disaggregation-form-buttons {
@@ -2157,7 +2157,7 @@ body.contrast-high.layout-config-builder .config-repository-button span {
           bottom: 10px; }
           #main-content #map .disaggregation-controls .disaggregation-form-outer .disaggregation-form .disaggregation-form-buttons button {
             margin-left: 10px;
-            font-size: 16px; }
+            font-size: 20px; }
   #main-content #map .leaflet-bottom.leaflet-right {
     z-index: 700; }
   @media only screen and (max-width: 480px) {
@@ -2444,7 +2444,7 @@ body.contrast-high.layout-data-editor .ag-root-wrapper, body.contrast-high.layou
         content: "";
         padding-right: 0; }
   .layout-news .post-listing .post-title {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 7px !important; }
   .layout-news .post-listing .post-date {
     float: left;
@@ -2585,7 +2585,7 @@ body.contrast-high.layout-data-editor .ag-root-wrapper, body.contrast-high.layou
         text-decoration: underline; }
     #search-results .search-result .url {
       color: green;
-      font-size: 16px; }
+      font-size: 20px; }
     #search-results .search-result .content {
       margin-top: 2px; }
 
@@ -2610,6 +2610,9 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 #main-content .goal-tiles .goal-tile > a:focus {
   outline: 0px transparent solid !important; }
 
+.row {
+  margin-left: 0px; }
+
 /*#0. header */
 /* a-tag style after clicked */
 #home:focus {
@@ -2631,6 +2634,7 @@ h1.header {
   font-size: 20px;
   margin-top: -5px;
   margin-bottom: 0px;
+  margin-left: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px; }
@@ -2639,7 +2643,8 @@ h1.header {
 .navbar-brand {
   width: calc(100% - 75px);
   max-width: 80px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
   padding: 0; }
   .navbar-brand img {
     max-width: 100%;
@@ -2650,6 +2655,9 @@ h1.header {
 
 .navbar.navbar-nav.nav-item.nav-link {
   font-size: 15px; }
+
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  border-bottom: 2px solid #0b0c0c; }
 
 /* search field*/
 #search-btn {
@@ -2738,63 +2746,47 @@ h1.header {
 
 /*#1. cards on landing page*/
 .col-md-4 {
-  width: 30%; }
+  height: max-content; }
 
 .card1, .card2, .card3 {
-  margin-top: 10px !important;
-  width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  height: 28rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 400px;
-  margin-left: 0px !important; }
+  background-color: white; }
 
-@media screen and (min-width: 450px) and (max-width: 992px) {
-  .card.col-md-4 {
-    width: 50% !important; } }
 .card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7); }
 
 .card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7); }
 
 .card3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7); }
 
 .cont {
-  margin-top: 20px;
-  padding: 2px 16px; }
+  margin-top: 1.5rem;
+  padding: 0px 16px 2px 20px;
+  color: black; }
 
 .card-img-top {
   width: 100%;
   height: 65%; }
 
-.card2 a, .card3 a {
-  color: #1d70b8 !important; }
-
 /*#2. goal page */
-.previous-next-links.row {
-  position: relative;
-  top: -170px;
-  left: 4vw; }
-
-.col-md-auto {
-  width: 25%; }
-
 /* goal-navigation-top */
 .goal-1 {
   /* main content for goals and indicators */ }
   .goal-1.goal-banner {
-    background-color: #E52B3D; }
+    background-color: #E52B3D;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-1.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-1.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-1.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-1.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2811,17 +2803,16 @@ h1.header {
 .goal-2 {
   /* main content for goals and indicators */ }
   .goal-2.goal-banner {
-    background-color: #DDA63A; }
+    background-color: #DDA63A;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-2.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-2.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-2.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-2.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2838,17 +2829,16 @@ h1.header {
 .goal-3 {
   /* main content for goals and indicators */ }
   .goal-3.goal-banner {
-    background-color: #4C9F38; }
+    background-color: #4C9F38;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-3.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-3.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-3.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-3.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2865,17 +2855,16 @@ h1.header {
 .goal-4 {
   /* main content for goals and indicators */ }
   .goal-4.goal-banner {
-    background-color: #C42130; }
+    background-color: #C42130;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-4.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-4.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-4.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-4.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2892,17 +2881,16 @@ h1.header {
 .goal-5 {
   /* main content for goals and indicators */ }
   .goal-5.goal-banner {
-    background-color: #FF3E24; }
+    background-color: #FF3E24;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-5.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-5.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-5.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-5.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2919,17 +2907,16 @@ h1.header {
 .goal-6 {
   /* main content for goals and indicators */ }
   .goal-6.goal-banner {
-    background-color: #28BCE1; }
+    background-color: #28BCE1;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-6.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-6.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-6.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-6.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2946,17 +2933,16 @@ h1.header {
 .goal-7 {
   /* main content for goals and indicators */ }
   .goal-7.goal-banner {
-    background-color: #FCC30B; }
+    background-color: #FCC30B;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-7.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-7.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-7.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-7.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -2973,17 +2959,16 @@ h1.header {
 .goal-8 {
   /* main content for goals and indicators */ }
   .goal-8.goal-banner {
-    background-color: #A21942; }
+    background-color: #A21942;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-8.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-8.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-8.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-8.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3000,17 +2985,16 @@ h1.header {
 .goal-9 {
   /* main content for goals and indicators */ }
   .goal-9.goal-banner {
-    background-color: #FD6925; }
+    background-color: #FD6925;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-9.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-9.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-9.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-9.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3027,17 +3011,16 @@ h1.header {
 .goal-10 {
   /* main content for goals and indicators */ }
   .goal-10.goal-banner {
-    background-color: #DD1367; }
+    background-color: #DD1367;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-10.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-10.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-10.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-10.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3054,17 +3037,16 @@ h1.header {
 .goal-11 {
   /* main content for goals and indicators */ }
   .goal-11.goal-banner {
-    background-color: #FD9C27; }
+    background-color: #FD9C27;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-11.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-11.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-11.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-11.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3081,17 +3063,16 @@ h1.header {
 .goal-12 {
   /* main content for goals and indicators */ }
   .goal-12.goal-banner {
-    background-color: #BF8B2E; }
+    background-color: #BF8B2E;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-12.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-12.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-12.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-12.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3108,17 +3089,16 @@ h1.header {
 .goal-13 {
   /* main content for goals and indicators */ }
   .goal-13.goal-banner {
-    background-color: #417D46; }
+    background-color: #417D46;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-13.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-13.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-13.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-13.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3135,17 +3115,16 @@ h1.header {
 .goal-14 {
   /* main content for goals and indicators */ }
   .goal-14.goal-banner {
-    background-color: #0A96D8; }
+    background-color: #0A96D8;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-14.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-14.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-14.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-14.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3162,17 +3141,16 @@ h1.header {
 .goal-15 {
   /* main content for goals and indicators */ }
   .goal-15.goal-banner {
-    background-color: #57BE2F; }
+    background-color: #57BE2F;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-15.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-15.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-15.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-15.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3189,17 +3167,16 @@ h1.header {
 .goal-16 {
   /* main content for goals and indicators */ }
   .goal-16.goal-banner {
-    background-color: #00689C; }
+    background-color: #00689C;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-16.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-16.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-16.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-16.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3216,17 +3193,16 @@ h1.header {
 .goal-17 {
   /* main content for goals and indicators */ }
   .goal-17.goal-banner {
-    background-color: #1F4A6A; }
+    background-color: #1F4A6A;
+    padding-top: 0px;
+    padding-bottom: 0px; }
     .goal-17.goal-banner .Image {
       display: block;
       margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
-      z-index: 1;
-      margin-top: -25px; }
-    .goal-17.goal-banner .container {
-      height: 200px; }
+      z-index: 1; }
     .goal-17.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-17.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
@@ -3362,27 +3338,39 @@ body.contrast-high .goal-banner img {
   text-decoration: none !important; }
 
 /*#5. Footer*/
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat; }
+
 #footer-binder {
-  width: 15em;
+  width: 13em;
   height: 5.5em;
   margin-top: 4%;
-  margin-bottom: 2%; }
+  margin-bottom: 4%; }
 
 #footer-binder-image {
   max-width: 100%;
   width: 400;
   height: auto; }
 
-#footer-binder-href:focus {
-  color: transparent !important;
-  box-shadow: 0px 0px 0px 0px #0b0c0c !important; }
-
 #footerende-href {
   color: white !important;
-  box-shadow: 0px 0px 0px 0px #0b0c0c !important; }
+  box-shadow: 0px 0px 0px 0px white !important; }
+
+#footer-binder-href:focus {
+  color: white !important;
+  box-shadow: 2px solid white !important; }
+
+footer a:hover {
+  border-bottom: 3px solid white; }
+
+ul {
+  margin-bottom: 0px; }
 
 #kooperation {
-  background-color: #19486a;
+  background-color: #353a90;
   color: white;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -3407,11 +3395,13 @@ main {
 .flexdirection {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  row-gap: 1rem; }
 
 h5 {
-  font-size: 0.65em;
-  font-weight: 500; }
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-bottom: 0.5rem; }
 
 @media screen and (max-width: 760px) {
   .flexdirection {
