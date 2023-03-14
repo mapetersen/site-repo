@@ -8,6 +8,10 @@
   }
 }
 
+.row {
+  margin-left: 0px;
+}
+
 /*#0. header */
 
 /* a-tag style after clicked */
@@ -32,6 +36,7 @@ h1.header {
   font-size: 20px;
   margin-top: -5px;
   margin-bottom: 0px;
+  margin-left: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -41,7 +46,8 @@ h1.header {
 .navbar-brand {
   width: calc(100% - 75px);
   max-width: 80px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
   padding:0;
   img {
       max-width: 100%;
@@ -55,6 +61,9 @@ h1.header {
 
 .navbar.navbar-nav.nav-item.nav-link {
   font-size: 15px;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  border-bottom: 2px solid $text-color;
 }
 
 /* search field*/
@@ -152,53 +161,51 @@ h1.header {
 
 /*#1. cards on landing page*/
 .col-md-4 {
-  width: 30%;
+  // width: 30%;
+  height: max-content;
 }
 .card1, .card2, .card3{
-        margin-top: 10px!important;
-        width: 100%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-        transition: 0.3s;
-        //width: 90%;
-        height:400px;
-        margin-left: 0px!important;
-    }
-    @media screen and (min-width: 450px) and (max-width: 992px) {
-      .card.col-md-4 {
-        width: 50%!important;
-      }
-    }
+  // width: 33%;
+  height:28rem;
+  // margin-top: 10px!important;
+  // margin-left: 0px!important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+}
+// @media screen and (min-width: 450px) and (max-width: 992px) {
+//   .card.col-md-4 {
+//     width: 50%!important;
+//     height: max-content;
+//   }
+// }
 .card1:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-          }
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
 .card2:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-              }
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
 .card3:hover {
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-              }
-    .cont{
-        margin-top: 20px;
-        padding: 2px 16px;
-    }
-    .card-img-top{
-        width:100%;
-        height:65%;
-    }
-    .card2 a, .card3 a {
-      color: #1d70b8!important;
-    }
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
+.cont{
+  margin-top: 1.5rem;
+  padding: 0px 16px 2px 20px ;
+  color: black;
+}
+.card-img-top{
+  width:100%;
+  height:65%;
+}
+
 
 
 /*#2. goal page */
-.previous-next-links.row {
-  position: relative;
-  top: -170px;
-  left: 4vw;
-}
-.col-md-auto {
-  width: 25%;
-}
+// .breadcrumb {
+//   margin-top: 1rem;
+//   margin-bottom: 0rem;
+// }
+
 
 @for $i from 1 through length($goal-banner-backgroundColors) {
   $background-c: nth($goal-banner-backgroundColors, $i);
@@ -207,6 +214,8 @@ h1.header {
   .goal-#{$i} {
     &.goal-banner {
       background-color: $background-c;
+      padding-top: 0px;
+      padding-bottom: 0px;
       .Image{
         display: block;
         margin: auto;
@@ -214,10 +223,6 @@ h1.header {
         width: 25%;
         height: 100%;
         z-index: 1;
-        margin-top: -25px;
-      }
-      .container{
-        height: 200px;
       }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,75%);
@@ -393,14 +398,19 @@ transform: translateX(0);
 }
 
 // remove the focus style for footer binder png
-#footer-binder-href:focus {
-  color: $focusBackgroundColor !important;
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
-}
-
 #footerende-href {
   color: white !important;
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
+  box-shadow: 0px 0px 0px 0px white !important;
+}
+#footer-binder-href:focus {
+  color: white !important;
+  box-shadow: 2px solid white !important;
+}
+footer a:hover {
+  border-bottom: 2px solid white;
+}
+ul {
+  margin-bottom: 0px;
 }
 
 
@@ -446,6 +456,7 @@ h5 {
       flex-direction: column;
       align-items: center;
       margin-top: 5%;
+      row-gap: 1rem;
   }
   h5 {  
       text-align: center;

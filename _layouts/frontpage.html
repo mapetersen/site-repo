@@ -11,19 +11,14 @@
 <div id="main-content" class="container" role="main">
 
     {% if site.frontpage_introduction_banner %}
-        {% if page.language == 'en' %}
         <div class="site-intro">
-        <h1>17 goals to transform our world </h1>
-        <div class="lead-copy"><p>The 17 Sustainable Development Goals (SDGs) are intended to initiate sustainable development on an economic, social and ecological level and were ratified by all UN member states in 2015 as part of the 2030 Agenda. In order to advance the global goals at the municipal level as well, the Berlin district Treptow-Köpenick adopted a Municipal Sustainability Strategy in 2021, which was developed together with various stakeholders in the district. This municipal sustainability strategy was supplemented by a SDG-monitoring, for which the indicators and data can be found here.</p></div>
+            <h1>SDG-Leitziele und Zustandsindikatoren zur Nachhaltigkeit in Nordfriesland</h1>
+            <div class="lead-copy">
+                <p>Der <a href="https://ratsinfo.nordfriesland.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZRNqAThsRWer1x3e67sAqj-inOPBJCbD3tAh10XkSvmp/Beschlusstext_TOP_19_-oeffentlich-_Kreistag_des_Kreises_Nordfriesland_13.09.2019.pdf">Kreistag Nordfriesland hat am 13.9.2019 beschlossen</a>, sich an den UN-Nachhaltigkeitszielen (Sustainable-Development-Goals, SDGs) und deren 169 Unterzielen auszurichten und die für Nordfriesland erarbeiteten Indikatoren, die kontinuierlich weiter entwickelt werden, für die strategische Ausrichtung zu nutzen.
+                <br><br>
+                Für einen ersten Nachhaltigkeitsbericht wurden die Daten zu ca. 50 Kernindikatoren zum Zustand der Nachhaltigkeit in Nordfriesland erhoben, nach Möglichkeit mit der Darstellung des zeitlichen Verlaufs in der Vergangenheit. Auswahl und Beschreibung der Daten ist dem Katalog der Bertelsmann-Stiftung SDG-Indikatoren für Kommunen entnommen.</p>
+            </div>
         </div>
-        {% else %}
-        <div class="site-intro">
-        <h1>17 Ziele, um unsere Welt zu verändern</h1>
-        <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
-            Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
-            Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
-        </div>
-        {% endif %}
     {% endif %}
 
     {% if site.frontpage_goals_grid %}
@@ -42,7 +37,7 @@
     {% endif %}
     
     <!-- cards -->
-    <div class="row">
+    <div class="row frontpage-card" style="padding-left: -calc(var(--bs-gutter-x) * -.5)">
         {% include components/card.html card=card %}
     </div>
 </div>

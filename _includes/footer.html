@@ -1,63 +1,36 @@
 
-<footer role="contentinfo" style="padding-top: 65px;">
+<footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
-                    {% if page.language == 'de' %}
                     <p>Unsere Projektpartner</p>
-                    {% else %}
-                    <p>Our project partners</p>
-                    {% endif %}
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection" style="padding: 1em; margin-bottom: 2%;">
+        <div class="row flexdirection">
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <a href="https://www.engagement-global.de/homepage.html" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <h5 style="margin-top: 3%; margin-bottom: 2%;">with its</h5>
-                    <a href="https://skew.engagement-global.de/home.html" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder2" style="background-color:white">
-                    {% if page.language == 'de' %}
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">On behalf of</h5>
-                    <a href="https://www.bmz.de/en" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
-                </div>
-            </div>
-            <div class="col-xs-3" id="footer-binder">
-                <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="{{ site.baseurl }}/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <a href="https://www.htw-berlin.de/en/" id="footer-binder-href" target="_blank"><img src="{{ site.baseurl }}/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
          </div>
@@ -65,38 +38,38 @@
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
-                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                <div id="footerLinks" style="background-color:#248096;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         {% if site.footer_menu %}
                             {% for item in site.footer_menu %}
                                 {%- assign item_path = item.path | t -%}
                                 <li style="color:white;margin: 15px;font-weight: bold;">
                                     {% if item_path contains "all_indicators" %}
-                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
                                         {% elsif item_path contains ":" %}
-                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
                                     {% else %}
                                         {%- assign item_path_first = item_path | slice: 0 %}
                                         {%- if item_path_first == '/' -%}
                                             {%- assign item_path = item_path | slice: 1, item_path.size -%}
                                         {%- endif -%}
-                                        <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                        <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
                                     {% endif %}
                                     </li>
                             {% endfor %}
                         {% endif %}
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
-                        <li style="color:white;margin: 15px;font-weight: bold;"><a
-                                style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" href="{{ page.baseurl }}config">Configuration</a>
-                            </li>
-                            {% endif %}
-                            {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle
-                            != 'none' -%}
-                            <li class="language-toggle-menu-footer" style="color:white;margin: 15px;font-weight: bold;">
-                                {% include components/language-toggle.html location="footer" %}
-                            </li>
-                            {%- endif -%}
-                        </ul>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a style="text-decoration: none;color:white;margin: 10px;font-size: 1.1rem;" href="{{ page.baseurl }}config">Configuration</a>
+                        </li>
+                        {% endif %}
+                        {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle
+                        != 'none' -%}
+                        <li class="language-toggle-menu-footer" style="color:white;margin: 15px;font-weight: bold;">
+                            {% include components/language-toggle.html location="footer" %}
+                        </li>
+                        {%- endif -%}
+                    </ul>
                 </div>
             </div>
         </div>
@@ -104,18 +77,12 @@
     <div class="container">
         <div class="row" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
-                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
-                    <ul style="text-align: center;"
-                    {% if page.language == 'de' %}
-                    <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
-                    </li>
-                    {% else %}
-                    <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
-                    </li>
-                    {% endif %}
-                </ul>
+                <div id="footerende" style="background-color:#248096;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                    <ul style="text-align: center;">
+                        <li style="color:white;margin: 15px;font-weight: bold; list-style-type: none;">
+                            <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none; color:white; margin:10px; font-size:15px;">Diese Webseite wurde mit Open SDG erstellt</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

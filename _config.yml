@@ -36,22 +36,22 @@ environment: staging
 analytics:
   ga_prod: ''
 
-breadcrumbs:
-  post:
-  - label: general.home
-    path: /
-  - label: menu.updates
-    path: /news
-  goal:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
-  indicator:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
+# breadcrumbs:
+#   post:
+#   - label: general.home
+#     path: /
+#   - label: menu.updates
+#     path: /news
+#   goal:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
+#   indicator:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
 
 collections:
   pages:

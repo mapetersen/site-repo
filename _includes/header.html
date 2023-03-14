@@ -3,8 +3,8 @@
 {% include components/header/internet-explorer-message.html %}
 
 
-<div style="position: sticky;  position: -webkit-sticky; top: 15px; z-index:3; background-color: white;">
-    <div id="color-bar-background"  style="position: relative;"> </div>
+<div style="position: sticky; position: -webkit-sticky; z-index:3; background-color: white;">
+    <div id="color-bar-background" style="position: relative;"> </div>
 
     <header role="banner" class="">
         <div class="container" style="top: 0px;">
@@ -13,19 +13,11 @@
 
                 {% include components/header/logo.html %}
 
-                {% if page.language == 'de' %}
                 <h1 class="header">
                     Monitoring der <br>
                     Kommunalen Nachhaltigkeitsstrategie <br>
                     Kreis Nordfriesland
                 </h1>
-                {% else %}
-                <h1 class="header">
-                    Monitoring of the <br>
-                    Municipal Sustainability Strategy <br>
-                    Kreis Nordfriesland
-                </h1>
-                {% endif %}
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
                     <span class="navbar-toggler-icon"></span>
