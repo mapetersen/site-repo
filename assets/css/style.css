@@ -2607,6 +2607,37 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
+h1 {
+  font-size: 2.5rem;
+  text-align: start; }
+  @media screen and (max-width: 992px) {
+    h1 {
+      font-size: 2.25rem; } }
+  @media screen and (max-width: 576px) {
+    h1 {
+      font-size: 1.8rem; } }
+
+h2 {
+  font-size: 2.1rem;
+  text-align: start; }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.7rem; } }
+  @media screen and (max-width: 400px) {
+    h2 {
+      font-size: 1.5rem; } }
+
+h3 {
+  font-size: 1.9rem;
+  text-align: start; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.5rem; } }
+
+@media screen and (max-width: 768px) {
+  h4 {
+    font-size: 1rem; } }
+
 #main-content .goal-tiles .goal-tile > a:focus {
   outline: 0px transparent solid !important; }
 
@@ -2614,58 +2645,173 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   margin-left: 0px; }
 
 /*#0. header */
-/* a-tag style after clicked */
-#home:focus {
-  box-shadow: 0px 0px 0px 0px transparent !important; }
+/* replace original body setting */
+body {
+  background: white;
+  padding-top: 0px; }
 
-/* header color bar beneath */
+/* color bar */
 #color-bar-background {
   background: white url("../img/sdgbg.png") top left repeat-x;
   top: -15px;
   height: 15px; }
 
-/* replace original body setting */
-body {
-  background: white;
-  padding-top: -15px; }
+header {
+  display: block;
+  top: 0px;
+  max-height: fit-content;
+  z-index: 3;
+  background-color: #353a90;
+  background-position: top -600px left -400px;
+  background-repeat: no-repeat; }
 
-/* page title */
+#home {
+  display: inline-block;
+  position: relative;
+  max-width: 6.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  text-decoration: none; }
+  @media screen and (max-width: 768px) {
+    #home {
+      max-width: 5rem; } }
+  @media screen and (max-width: 460px) {
+    #home {
+      max-width: 3.75rem; } }
+  #home img {
+    max-width: 100%; }
+
+#home:focus {
+  box-shadow: 0px 0px 0px 0px transparent !important; }
+
+/* header title */
 h1.header {
-  font-size: 20px;
-  margin-top: -5px;
-  margin-bottom: 0px;
+  font-size: 1.35rem;
+  color: white;
   margin-left: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px; }
+  @media screen and (max-width: 768px) {
+    h1.header {
+      font-size: 1.1rem; } }
+  @media screen and (max-width: 460px) {
+    h1.header {
+      font-size: 0.9rem; } }
 
 /*  ab hier von open-sdg*/
-.navbar-brand {
-  width: calc(100% - 75px);
-  max-width: 80px;
+.navbar-home {
   margin-bottom: 0px;
   margin-right: 0px;
   padding: 0; }
-  .navbar-brand img {
-    max-width: 100%;
-    text-decoration: none; }
-  .navbar-brand:focus {
+  .navbar-home:focus {
     background-color: transparent !important;
     outline: 7px solid transparent !important; }
 
-.navbar.navbar-nav.nav-item.nav-link {
-  font-size: 15px; }
+@media screen and (min-width: 992px) {
+  .header-right {
+    display: flex; } }
+@media screen and (max-width: 992px) {
+  .header-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: auto; } }
+
+.navbar .navbar-nav > .nav-item > .nav-link {
+  color: black; }
 
 .navbar .navbar-nav > .nav-item > .nav-link:hover {
-  border-bottom: 2px solid #0b0c0c; }
+  border-bottom: 3px solid black; }
+
+@media screen and (max-width: 992px) {
+  #header-navbar-xs {
+    display: none !important; } }
+@media screen and (min-width: 992px) {
+  .header-navigation-dropdown {
+    display: none; } }
+@media screen and (max-width: 992px) {
+  .header-navigation-dropdown .nav-item {
+    background-color: white; }
+  .header-navigation-dropdown .nav-item:hover {
+    background-color: #f7f7f7; }
+  .header-navigation-dropdown .navbar-nav .nav-link {
+    color: black;
+    padding-left: 1rem; } }
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  font-size: 0.8rem; }
+.navbar .navbar-toggler {
+  border-color: white;
+  background-color: #353a90;
+  margin-top: 0px; }
+  @media screen and (max-width: 460px) {
+    .navbar .navbar-toggler {
+      padding: .1rem .2rem; } }
+.navbar .navbar-toggler:hover {
+  border-color: white;
+  background-color: #353a90;
+  box-shadow: 0px 0px 0px 0px transparent !important; }
+.navbar .navbar-toggler:focus {
+  border-color: white;
+  box-shadow: 0px 0px 0px 0px transparent !important; }
 
 /* search field*/
-#search-btn {
-  background-color: #eeeeee !important;
-  color: black !important;
-  border-color: black !important;
+#search .input-group, #search-bar-on-page .input-group {
+  flex-wrap: nowrap; }
+#search input, #search-bar-on-page input {
+  border: 1.25px solid #ced4da; }
+#search input:focus, #search-bar-on-page input:focus {
+  background-color: white !important;
+  border-color: #444444;
+  outline: 0px solid transparent !important; }
+#search button, #search-bar-on-page button {
+  background-color: transparent !important;
+  color: #444444 !important;
+  border-color: #ced4da !important;
   padding-top: 0.7rem;
-  padding-bottom: 0.7em; }
+  padding-bottom: 0.7rem; }
+#search button:focus, #search-bar-on-page button:focus {
+  color: white !important;
+  border-color: #444444;
+  outline: 0px solid transparent !important;
+  background-color: #444444 !important;
+  z-index: 1; }
+#search .fa.fa-search, #search-bar-on-page .fa.fa-search {
+  font-size: 1rem; }
+
+#search-bar-on-page button {
+  right: 0px;
+  height: auto;
+  font-size: initial; }
+#search-bar-on-page input {
+  height: auto; }
+
+.menu-dropdown {
+  border-bottom: 3px solid #353a90; }
+
+#navbar-search-xs {
+  padding: 0.1rem 0px; }
+  #navbar-search-xs .input-group {
+    flex-wrap: nowrap; }
+    #navbar-search-xs .input-group input {
+      width: 100%;
+      border: 1.25px solid white;
+      border-bottom: 1px solid black; }
+    #navbar-search-xs .input-group #search-btn-xs {
+      color: #444444;
+      background-color: transparent;
+      box-shadow: none;
+      outline-color: transparent; }
+      #navbar-search-xs .input-group #search-btn-xs .fa.fa-search {
+        font-size: 1.2rem; }
+    #navbar-search-xs .input-group #search-btn-xs:is(:hover, :focus) {
+      color: black;
+      box-shadow: 0px 0px 0px 0px transparent !important; }
+  @media screen and (min-width: 992px) {
+    #navbar-search-xs {
+      display: none; } }
 
 /* ab hier nichts geaendert */
 .header-toggles {
@@ -2674,71 +2820,6 @@ h1.header {
 #menu {
   margin-bottom: 5px; }
 
-/* colorful-bar on top */
-  /*
-  body {
-    background: $backgroundColor url("../img/sdgbg.png") top left repeat-x;
-    top: 0;
-  } 
-
-  header {
-    .navbar {
-        .navbar-nav {
-            .nav-item:first-child {
-                .nav-link {
-                    padding-left: 0;
-                }
-            }
-        }
-    }
-  }
-
-  body.contrast-high {
-    .navbar-brand {
-        &:focus {
-            background-color: transparent !important;
-            outline: 7px solid $focusOutlineColor !important;
-        }
-    }
-  }
-
-  .internet-explorer-message {
-    display: none;
-    border: 5px solid $disclaimer-tag-backgroundColor;
-    background-color: $disclaimer-tag-backgroundColor;
-    padding: 0;
-    .internet-explorer-message-title {
-        padding: 2px 20px 5px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0);
-        margin: 0;
-        color: $disclaimer-tag-color;
-    }
-    .internet-explorer-message-body {
-        padding: 20px;
-        color: $disclaimer-text-color;
-        background-color: $backgroundColor;
-        margin: 0;
-    }
-  }
-  body.contrast-high {
-    .internet-explorer-message {
-        border: 5px solid $color-light-highContrast;
-        background-color: $color-light-highContrast;
-        .internet-explorer-message-title {
-            color: $color-dark-highContrast;
-        }
-        .internet-explorer-message-body {
-            color: $color-light-highContrast;
-            background-color: $color-dark-highContrast;
-        }
-    }
-  }
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .internet-explorer-message {
-        display: block;
-    }
-  }
-*/
 .site-intro {
   background: none !important;
   padding-right: 0px !important;
@@ -2775,449 +2856,653 @@ h1.header {
 /*#2. goal page */
 /* goal-navigation-top */
 .goal-1 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-1.goal-banner {
     background-color: #E52B3D;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-1.goal-banner .Image {
+    .goal-1.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-1.goal-banner .fa-chevron-left,
+    .goal-1.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-1.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #0f0203; }
     .goal-1.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #0f0203; }
+  @media screen and (max-width: 992px) {
+    .goal-1 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-1 .Image.col-2 {
+      width: 8rem; } }
   .goal-1.goal-title-by-goal {
     color: #E52B3D;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-1.indicator-title-by-indicator {
     color: #E52B3D;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-2 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-2.goal-banner {
     background-color: #DDA63A;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-2.goal-banner .Image {
+    .goal-2.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-2.goal-banner .fa-chevron-left,
+    .goal-2.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-2.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #140f04; }
     .goal-2.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #140f04; }
+  @media screen and (max-width: 992px) {
+    .goal-2 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-2 .Image.col-2 {
+      width: 8rem; } }
   .goal-2.goal-title-by-goal {
     color: #DDA63A;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-2.indicator-title-by-indicator {
     color: #DDA63A;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-3 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-3.goal-banner {
     background-color: #4C9F38;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-3.goal-banner .Image {
+    .goal-3.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-3.goal-banner .fa-chevron-left,
+    .goal-3.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-3.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-3.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-3 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-3 .Image.col-2 {
+      width: 8rem; } }
   .goal-3.goal-title-by-goal {
     color: #4C9F38;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-3.indicator-title-by-indicator {
     color: #4C9F38;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-4 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-4.goal-banner {
     background-color: #C42130;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-4.goal-banner .Image {
+    .goal-4.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-4.goal-banner .fa-chevron-left,
+    .goal-4.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-4.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-4.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-4 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-4 .Image.col-2 {
+      width: 8rem; } }
   .goal-4.goal-title-by-goal {
     color: #C42130;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-4.indicator-title-by-indicator {
     color: #C42130;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-5 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-5.goal-banner {
     background-color: #FF3E24;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-5.goal-banner .Image {
+    .goal-5.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-5.goal-banner .fa-chevron-left,
+    .goal-5.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-5.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #240400; }
     .goal-5.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #240400; }
+  @media screen and (max-width: 992px) {
+    .goal-5 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-5 .Image.col-2 {
+      width: 8rem; } }
   .goal-5.goal-title-by-goal {
     color: #FF3E24;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-5.indicator-title-by-indicator {
     color: #FF3E24;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-6 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-6.goal-banner {
     background-color: #28BCE1;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-6.goal-banner .Image {
+    .goal-6.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-6.goal-banner .fa-chevron-left,
+    .goal-6.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-6.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #010709; }
     .goal-6.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #010709; }
+  @media screen and (max-width: 992px) {
+    .goal-6 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-6 .Image.col-2 {
+      width: 8rem; } }
   .goal-6.goal-title-by-goal {
     color: #28BCE1;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-6.indicator-title-by-indicator {
     color: #28BCE1;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-7 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-7.goal-banner {
     background-color: #FCC30B;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-7.goal-banner .Image {
+    .goal-7.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-7.goal-banner .fa-chevron-left,
+    .goal-7.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-7.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #080600; }
     .goal-7.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #080600; }
+  @media screen and (max-width: 992px) {
+    .goal-7 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-7 .Image.col-2 {
+      width: 8rem; } }
   .goal-7.goal-title-by-goal {
     color: #FCC30B;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-7.indicator-title-by-indicator {
     color: #FCC30B;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-8 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-8.goal-banner {
     background-color: #A21942;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-8.goal-banner .Image {
+    .goal-8.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-8.goal-banner .fa-chevron-left,
+    .goal-8.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-8.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-8.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-8 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-8 .Image.col-2 {
+      width: 8rem; } }
   .goal-8.goal-title-by-goal {
     color: #A21942;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-8.indicator-title-by-indicator {
     color: #A21942;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-9 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-9.goal-banner {
     background-color: #FD6925;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-9.goal-banner .Image {
+    .goal-9.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-9.goal-banner .fa-chevron-left,
+    .goal-9.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-9.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #230b00; }
     .goal-9.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #230b00; }
+  @media screen and (max-width: 992px) {
+    .goal-9 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-9 .Image.col-2 {
+      width: 8rem; } }
   .goal-9.goal-title-by-goal {
     color: #FD6925;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-9.indicator-title-by-indicator {
     color: #FD6925;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-10 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-10.goal-banner {
     background-color: #DD1367;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-10.goal-banner .Image {
+    .goal-10.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-10.goal-banner .fa-chevron-left,
+    .goal-10.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-10.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-10.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-10 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-10 .Image.col-2 {
+      width: 8rem; } }
   .goal-10.goal-title-by-goal {
     color: #DD1367;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-10.indicator-title-by-indicator {
     color: #DD1367;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-11 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-11.goal-banner {
     background-color: #FD9C27;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-11.goal-banner .Image {
+    .goal-11.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-11.goal-banner .fa-chevron-left,
+    .goal-11.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-11.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #251400; }
     .goal-11.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #251400; }
+  @media screen and (max-width: 992px) {
+    .goal-11 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-11 .Image.col-2 {
+      width: 8rem; } }
   .goal-11.goal-title-by-goal {
     color: #FD9C27;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-11.indicator-title-by-indicator {
     color: #FD9C27;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-12 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-12.goal-banner {
     background-color: #BF8B2E;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-12.goal-banner .Image {
+    .goal-12.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-12.goal-banner .fa-chevron-left,
+    .goal-12.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-12.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-12.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-12 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-12 .Image.col-2 {
+      width: 8rem; } }
   .goal-12.goal-title-by-goal {
     color: #BF8B2E;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-12.indicator-title-by-indicator {
     color: #BF8B2E;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-13 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-13.goal-banner {
     background-color: #417D46;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-13.goal-banner .Image {
+    .goal-13.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-13.goal-banner .fa-chevron-left,
+    .goal-13.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-13.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-13.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-13 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-13 .Image.col-2 {
+      width: 8rem; } }
   .goal-13.goal-title-by-goal {
     color: #417D46;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-13.indicator-title-by-indicator {
     color: #417D46;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-14 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-14.goal-banner {
     background-color: #0A96D8;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-14.goal-banner .Image {
+    .goal-14.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-14.goal-banner .fa-chevron-left,
+    .goal-14.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-14.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-14.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-14 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-14 .Image.col-2 {
+      width: 8rem; } }
   .goal-14.goal-title-by-goal {
     color: #0A96D8;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-14.indicator-title-by-indicator {
     color: #0A96D8;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-15 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-15.goal-banner {
     background-color: #57BE2F;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-15.goal-banner .Image {
+    .goal-15.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-15.goal-banner .fa-chevron-left,
+    .goal-15.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-15.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-15.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-15 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-15 .Image.col-2 {
+      width: 8rem; } }
   .goal-15.goal-title-by-goal {
     color: #57BE2F;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-15.indicator-title-by-indicator {
     color: #57BE2F;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-16 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-16.goal-banner {
     background-color: #00689C;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-16.goal-banner .Image {
+    .goal-16.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-16.goal-banner .fa-chevron-left,
+    .goal-16.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-16.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-16.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-16 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-16 .Image.col-2 {
+      width: 8rem; } }
   .goal-16.goal-title-by-goal {
     color: #00689C;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-16.indicator-title-by-indicator {
     color: #00689C;
     padding: 0; }
 
 /* goal-navigation-top */
 .goal-17 {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   /* main content for goals and indicators */ }
   .goal-17.goal-banner {
     background-color: #1F4A6A;
     padding-top: 0px;
     padding-bottom: 0px; }
-    .goal-17.goal-banner .Image {
+    .goal-17.goal-banner > .Image {
       display: block;
-      margin: auto;
       text-align: center;
       width: 25%;
       height: 100%;
       z-index: 1; }
+    .goal-17.goal-banner .fa-chevron-left,
+    .goal-17.goal-banner .fa-chevron-right {
+      font-size: calc(1rem + ((2vw) * 0.6944)); }
     .goal-17.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
     .goal-17.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
+  @media screen and (max-width: 992px) {
+    .goal-17 .Image.col-2 {
+      width: 10rem; } }
+  @media screen and (max-width: 576px) {
+    .goal-17 .Image.col-2 {
+      width: 8rem; } }
   .goal-17.goal-title-by-goal {
     color: #1F4A6A;
-    font-weight: 900;
-    margin-top: 30px; }
+    font-weight: 700;
+    margin-top: 3vw; }
   .goal-17.indicator-title-by-indicator {
     color: #1F4A6A;
     padding: 0; }
 
-.layout-goal .goal-page-indicator-number {
-  margin-left: 0px; }
+.goal-target {
+  padding-bottom: 0.5rem; }
 
+.target-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444444;
+  text-decoration: none;
+  padding: 0.5rem 0rem; }
+
+.layout-goal .goal-page-target-number {
+  padding-right: 70px; }
+.layout-goal .goal-page-indicator-number {
+  margin-left: 0px;
+  padding-right: 50px; }
+  .layout-goal .goal-page-indicator-number .indicator-number {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #444444;
+    text-decoration: none;
+    padding: 0.5rem 0rem; }
+    @media screen and (max-width: 992px) {
+      .layout-goal .goal-page-indicator-number .indicator-number {
+        font-size: 1.2rem; } }
+.layout-goal .indicator-name a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #444444;
+  text-decoration: none;
+  padding: 0.5rem 0rem;
+  margin: 0.3rem; }
+  @media screen and (max-width: 768px) {
+    .layout-goal .indicator-name a {
+      padding: 0rem 0rem;
+      font-size: 1.2rem; } }
+.layout-goal .indicator-name a:hover {
+  border-bottom: 3px solid #444444; }
 @media screen and (min-width: 769px) {
   .layout-goal {
     min-height: 80px;
@@ -3229,6 +3514,8 @@ h1.header {
     min-height: auto; }
     .layout-goal .status {
       width: auto; } }
+.layout-goal .goal-indicator {
+  margin-top: 0px; }
 .layout-goal .status {
   display: block;
   float: right;
@@ -3276,13 +3563,12 @@ h1.header {
       background-color: rgba(255, 255, 255, 0.8);
       background: rgba(255, 255, 255, 0.8); }
 
-/* goal-navigation-top.night mode*/
-body.contrast-high .goal-banner img {
-  background-color: black !important; }
-
 /*#3. indicator page */
 #toolbar {
   margin-top: 1.5rem !important; }
+
+button[role=tab]:focus {
+  background-color: transparent !important; }
 
 /*#4. goal-navigation-bottom */
 #contain {
@@ -3294,29 +3580,55 @@ body.contrast-high .goal-banner img {
 #text {
   padding-bottom: 20px; }
 
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
+@media (max-width: 576px) {
+  #carouselLowerNavigation .carousel-inner .carousel-item > div {
     display: none; }
-
-  .carousel-inner .carousel-item > div:first-child {
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child {
     display: block; } }
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
   display: flex; }
 
-@media (min-width: 768px) {
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
+@media (min-width: 576px) and (max-width: 768px) {
+  #carouselLowerNavigation .carousel-inner .carousel-item > div {
+    display: none; }
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child {
+    display: block; }
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child + div {
+    display: block; }
+  #carouselLowerNavigation .carousel-inner .carousel-item-end.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-next {
+    transform: translateX(50%); }
+  #carouselLowerNavigation .carousel-inner .carousel-item-start.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-prev {
+    transform: translateX(-50%); } }
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselLowerNavigation .carousel-inner .carousel-item > div {
+    display: none; }
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child {
+    display: block; }
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child + div {
+    display: block; }
+  #carouselLowerNavigation .carousel-inner .carousel-item > div:first-child + div + div {
+    display: block; }
+  #carouselLowerNavigation .carousel-inner .carousel-item-end.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-next {
+    transform: translateX(33.33%); }
+  #carouselLowerNavigation .carousel-inner .carousel-item-start.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%); } }
+@media (min-width: 992px) {
+  #carouselLowerNavigation .carousel-inner .carousel-item-end.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-next {
     transform: translateX(25%); }
-
-  .carousel-inner .carousel-item-start.active,
-  .carousel-inner .carousel-item-prev {
+  #carouselLowerNavigation .carousel-inner .carousel-item-start.active,
+  #carouselLowerNavigation .carousel-inner .carousel-item-prev {
     transform: translateX(-25%); } }
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-  transform: translateX(0); }
-
+@media (min-width: 576px) {
+  #carouselLowerNavigation .carousel-inner .carousel-item-end,
+  #carouselLowerNavigation .carousel-inner .carousel-item-start {
+    transform: translateX(0); } }
 .carousel-col {
   margin: 0.4rem;
   box-shadow: 0 2px 4px 0 rgba(77, 77, 77, 0.9); }
@@ -3401,7 +3713,8 @@ main {
 h5 {
   font-size: 0.9rem;
   font-weight: 300;
-  padding-bottom: 0.5rem; }
+  padding-bottom: 0.5rem;
+  padding-left: 0.4rem; }
 
 @media screen and (max-width: 760px) {
   .flexdirection {
@@ -3410,6 +3723,8 @@ h5 {
     margin-top: 5%; }
 
   h5 {
-    text-align: center; } }
+    text-align: center;
+    padding-left: 0rem; } }
 [href]:focus {
-  box-shadow: 0px 0px 0px 0px transparent !important; }
+  box-shadow: 0px 0px 0px 0px transparent !important;
+  background-color: transparent !important; }
