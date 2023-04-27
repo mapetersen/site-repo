@@ -152,6 +152,11 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
+    
+metadata_tabs:
+  - scope: national
+    title: Metadaten
+    description: indicator.national_metadata_blurb
 
 plugins:
   - jekyll-remote-theme

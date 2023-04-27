@@ -20,18 +20,18 @@
 <div id="main-content" class="container" role="main">
 
     {% include components/goal/goal-content.html content=content %}
-    <h1 class="goal-title-by-goal goal-{{ page.goal.number }}">
+    <h2 class="goal-title-by-goal goal-{{ page.goal.number }}">
         {% if page.goal_heading and page.goal_heading != '' %}
             {{ page.goal_heading | t }}
         {% else %}
             {{ page.goal.name }}
         {% endif %}
-    </h1>
+    </h2>
 
   <div class="container g-0 {% if show_progress %}goal-showing-progress{% endif %}">
     <div class="row align-items-end">
       <div class="col">
-        <h2 class="goal-page-heading">{{ page.t.general.targets_and_indicators }}</h2>
+        <h3 class="goal-page-heading">{{ page.t.general.targets_and_indicators }}</h3>
       </div>
       {% if show_progress %}
       <div class="col-lg-2 d-none d-lg-block progress-column-header">
@@ -51,6 +51,7 @@
           <div class="col goal-page-target-name">
             <span class="target-name">{{ target.name }}</span>
           </div>
+
           {% if show_progress %}
           <div class="col-lg-2 d-none d-lg-block"></div>
           {% endif %}

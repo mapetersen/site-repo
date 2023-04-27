@@ -1,3 +1,38 @@
+// responsive text size
+h1 {
+  font-size: 2.5rem;
+  text-align: start;
+  @media screen and (max-width: 992px) {
+    font-size: 2.25rem;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 1.8rem;
+  }
+}
+h2 {
+  font-size: 2.1rem;
+  text-align: start;
+  @media screen and (max-width: 768px) {
+    font-size: 1.7rem;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 1.5rem;
+  }
+}
+h3 {
+  font-size: 1.9rem;
+  text-align: start;
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+}
+h4 {
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+
 #main-content {
   .goal-tiles {
     .goal-tile {
@@ -13,66 +48,238 @@
 }
 
 /*#0. header */
-
-/* a-tag style after clicked */
-#home:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+/* replace original body setting */
+body{
+  background: white;
+  padding-top: 0px;
 }
-
-/* header color bar beneath */
+/* color bar */
 #color-bar-background {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
   top: -15px;
   height: 15px;
 }
-/* replace original body setting */
-body{
-  background: white;
-  padding-top: -15px;
+
+header {
+  display: block;
+  // position: sticky;  
+  // position: -webkit-sticky; 
+  top: 0px; 
+  max-height: fit-content;
+  z-index:3; 
+  background-color: #353a90;
+  background-position: top -600px left -400px;
+  background-repeat: no-repeat;
 }
 
-/* page title */
+#home{
+  display: inline-block;
+  position: relative;
+  max-width: 6.5rem;
+  padding-top:0.7rem; 
+  padding-bottom: 1rem;
+  text-decoration: none;
+  @media screen and (max-width: 768px) {
+    max-width: 5rem;
+  }
+  @media screen and (max-width: 460px) {
+    max-width: 3.75rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+#home:focus {
+  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+}
+
+
+/* header title */
 h1.header {
-  font-size: 20px;
-  margin-top: -5px;
-  margin-bottom: 0px;
+  font-size: 1.35rem;
+  color: white;
   margin-left: 1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 460px) {
+    font-size: 0.9rem;
+  }
 } 
 
 /*  ab hier von open-sdg*/
-.navbar-brand {
-  width: calc(100% - 75px);
-  max-width: 80px;
+.navbar-home {
+  // width: calc(100% - 75px);
   margin-bottom: 0px;
   margin-right: 0px;
   padding:0;
-  img {
-      max-width: 100%;
-      text-decoration: none;
-  }
   &:focus {
       background-color: transparent !important;
       outline: 7px solid $focusOutlineColor !important;
   }
 }
 
-.navbar.navbar-nav.nav-item.nav-link {
-  font-size: 15px;
-}
-.navbar .navbar-nav > .nav-item > .nav-link:hover {
-  border-bottom: 2px solid $text-color;
+// navbar-menu and navbar-toggler
+.header-right {
+  @media screen and (min-width: 992px) {
+    display: flex; 
+  }
+
+  @media screen and (max-width: 992px) {
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-top: auto;
+  }
 }
 
+// set navigation links (upper right) to white
+.navbar .navbar-nav > .nav-item > .nav-link {
+  color: black;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  border-bottom: 3px solid black;
+}
+// hide navigation links (upper right) when screen is small
+@media screen and (max-width: 992px) {
+  #header-navbar-xs {
+    display: none !important;;
+  }
+}
+// small screen --> hamburger icon and dropdown menu
+@media screen and (min-width: 992px) {
+  // show navigation dropdown when screen is small
+  .header-navigation-dropdown {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  // dropdown menu under color bar
+  .header-navigation-dropdown {
+    .nav-item {
+      background-color: white;
+    } 
+    .nav-item:hover {
+      background-color: #f7f7f7;
+    }
+    .navbar-nav .nav-link {
+      color: black;
+      padding-left: 1rem;
+    }
+  }
+}
+.navbar {
+  // hamburger icon
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 0.8rem;
+  }
+  .navbar-toggler {
+    border-color: rgb(255,255,255);
+    background-color: #353a90;
+    margin-top: 0px;
+    @media screen and (max-width: 460px) {
+      padding: .1rem .2rem;
+    }
+  } 
+
+  .navbar-toggler:hover {
+    border-color: rgb(255,255,255);
+    background-color: #353a90;
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  } 
+  .navbar-toggler:focus {
+    border-color: rgb(255,255,255);
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  }
+
+}
+
+
 /* search field*/
-#search-btn {
-  background-color: #eeeeee !important;
-  color: black !important;
-  border-color: black !important;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7em;
+#search, #search-bar-on-page {  
+  .input-group {
+    flex-wrap: nowrap; }
+  input {
+    border: 1.25px solid #ced4da; 
+  }
+  input:focus {
+    background-color: white !important;
+    border-color: #444444;
+    outline: 0px solid transparent !important; 
+  }
+  button {
+    background-color: transparent !important;
+    color: #444444 !important;
+    border-color: #ced4da !important;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  button:focus {
+    color: white !important;
+    border-color: #444444;
+    outline: 0px solid transparent !important; 
+    background-color: #444444 !important;
+    z-index: 1; 
+  }
+  .fa.fa-search {
+    font-size: 1rem;
+  }
+}
+
+// search bar on search-result page (does not change)
+#search-bar-on-page {
+  button {
+    right: 0px;
+    height: auto;
+    font-size: initial;
+    // padding-top: 0.7rem;
+    // padding-bottom: 0.7rem;
+  }
+  input { height: auto; }
+}
+
+// frontpage search bar
+// when screen smaller than 992px --> switch to navbar-search-xs
+.menu-dropdown {
+  border-bottom: 3px solid #353a90;
+}
+#navbar-search-xs {
+  padding: 0.1rem 0px;
+
+  .input-group {
+    flex-wrap: nowrap; 
+
+    input {
+      width: 100%;
+      border: 1.25px solid white;
+      border-bottom: 1px solid black;
+    }
+    // search icon
+    #search-btn-xs {
+      color: #444444;
+      background-color: transparent;
+      box-shadow: none;
+      outline-color: transparent;
+      .fa.fa-search {
+        font-size: 1.2rem;
+      }
+    }
+    #search-btn-xs:is(:hover, :focus) {
+      color: black;
+      box-shadow: 0px 0px 0px 0px transparent !important;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    // show navigation dropdown when screen is small
+    display: none;
+  }
 }
 
 
@@ -84,72 +291,6 @@ h1.header {
   #menu {
     margin-bottom: 5px;
   }
-
-  /* colorful-bar on top */
-  /*
-  body {
-    background: $backgroundColor url("../img/sdgbg.png") top left repeat-x;
-    top: 0;
-  } 
-
-  header {
-    .navbar {
-        .navbar-nav {
-            .nav-item:first-child {
-                .nav-link {
-                    padding-left: 0;
-                }
-            }
-        }
-    }
-  }
-
-  body.contrast-high {
-    .navbar-brand {
-        &:focus {
-            background-color: transparent !important;
-            outline: 7px solid $focusOutlineColor !important;
-        }
-    }
-  }
-
-  .internet-explorer-message {
-    display: none;
-    border: 5px solid $disclaimer-tag-backgroundColor;
-    background-color: $disclaimer-tag-backgroundColor;
-    padding: 0;
-    .internet-explorer-message-title {
-        padding: 2px 20px 5px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0);
-        margin: 0;
-        color: $disclaimer-tag-color;
-    }
-    .internet-explorer-message-body {
-        padding: 20px;
-        color: $disclaimer-text-color;
-        background-color: $backgroundColor;
-        margin: 0;
-    }
-  }
-  body.contrast-high {
-    .internet-explorer-message {
-        border: 5px solid $color-light-highContrast;
-        background-color: $color-light-highContrast;
-        .internet-explorer-message-title {
-            color: $color-dark-highContrast;
-        }
-        .internet-explorer-message-body {
-            color: $color-light-highContrast;
-            background-color: $color-dark-highContrast;
-        }
-    }
-  }
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .internet-explorer-message {
-        display: block;
-    }
-  }
-*/
 
 
 .site-intro {
@@ -206,37 +347,48 @@ h1.header {
 //   margin-bottom: 0rem;
 // }
 
-
 @for $i from 1 through length($goal-banner-backgroundColors) {
   $background-c: nth($goal-banner-backgroundColors, $i);
 
   /* goal-navigation-top */
   .goal-#{$i} {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     &.goal-banner {
       background-color: $background-c;
       padding-top: 0px;
       padding-bottom: 0px;
-      .Image{
+      & > .Image{
         display: block;
-        margin: auto;
         text-align: center;
         width: 25%;
         height: 100%;
         z-index: 1;
       }
+      .fa-chevron-left,
+      .fa-chevron-right {
+        font-size: calc(1rem + ((2vw) * 0.6944));
+      }
       .fa-chevron-left:is(:hover, :focus, :active) {
-        color: darken($background-c,75%);
+        color: darken($background-c,50%); //white
       }
       .fa-chevron-right:is(:hover, :focus, :active) {
-        color: darken($background-c,75%);
+        color: darken($background-c,50%); //white
       }
     }
-
+    .Image.col-2 {
+      @media screen and (max-width: 992px) {
+        width: 10rem;
+      }
+      @media screen and (max-width: 576px) {
+        width: 8rem;
+      }
+    }
     /* main content for goals and indicators */
     &.goal-title-by-goal {
       color: $background-c;
-      font-weight: 900;
-      margin-top: 30px;
+      font-weight: 700;
+      margin-top: 3vw;
     }
     &.indicator-title-by-indicator {
       color: $background-c;
@@ -245,11 +397,71 @@ h1.header {
   }
 }
 
-.layout-goal .goal-page-indicator-number {
-  margin-left: 0px;
+// goal-navigation-top with button effect: 
+// 1. change .fa-chevron-left/right :is(...) { color: white; }
+// 2. change font-size of class "fa fa-chevron-left/right" in goal-navigation-top.html --> padding: 3vw 0.5vw;
+// 3. and uncomment below:
+// #goal-nav-top {
+//   .previous-next-links {
+//     .col {
+//       & > a[href]:is(:hover, :focus) {
+//         box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2) !important;
+//         outline: 3px solid transparent !important;
+//         background-color: transparent !important;
+//         outline-offset: 0 !important;
+//         text-decoration: none !important;
+//       }
+//     }
+//   }
+// }
+.goal-target {
+  padding-bottom: 0.5rem;
 }
-
+.target-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444444;
+  text-decoration: none;
+  padding: 0.5rem 0rem;
+}
 .layout-goal {
+  .goal-page-target-number {
+    padding-right: 70px;
+  }
+  .goal-page-indicator-number {
+    margin-left: 0px;
+    padding-right: 50px;
+    .indicator-number {
+      font-size: 1.4rem; 
+      font-weight: 500;
+      color:#444444; 
+      text-decoration: none;
+      padding:0.5rem 0rem; 
+      @media screen and (max-width: 992px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .indicator-name {
+    a {
+      font-size: 1.5rem; 
+      font-weight: 500;
+      color:#444444;
+      text-decoration: none;
+      padding:0.5rem 0rem; 
+      margin: 0.3rem; 
+
+      @media screen and (max-width: 768px) {
+        padding: 0rem 0rem;
+        font-size: 1.2rem;
+      }
+
+    }
+    a:hover {
+      border-bottom: 3px solid #444444;
+    }
+  }
   @media screen and (min-width: 769px) {
     min-height: 80px;
     position: relative;
@@ -264,6 +476,12 @@ h1.header {
     }
   }
 
+  .goal-indicator {
+    margin-top: 0px;
+  }
+  // .goal-page-target-rule, .goal-page-column-header-rule {
+  //   border-top: 0px solid transparent;
+  // }
   .status {
     display: block;
     float: right;
@@ -272,39 +490,19 @@ h1.header {
     margin-bottom: 10px;
     margin-top: -5px;
   }
-
 }
 
-// .btn.goal-banner:hover {
-//   box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2);
-//   outline: 3px solid transparent !important;
-//   background-color: $focusBackgroundColor !important;
-//   outline-offset: 0 !important;
-//   text-decoration: none !important;
-// }
 
-// #goal-nav-top {
-//   .previous-next-links {
-//     .col {
-//       & > a[href]:is(:hover, :focus) {
-//         box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2);
-//         outline: 3px solid transparent !important;
-//         background-color: $focusBackgroundColor !important;
-//         outline-offset: 0 !important;
-//         text-decoration: none !important;
+
+
+// /* goal-navigation-top.night mode*/
+// body.contrast-high {
+//   .goal-banner {
+//       img {
+//           background-color: black !important;
 //       }
-//     }
 //   }
 // }
-
-/* goal-navigation-top.night mode*/
-body.contrast-high {
-  .goal-banner {
-      img {
-          background-color: black !important;
-      }
-  }
-}
 
 
 
@@ -312,6 +510,9 @@ body.contrast-high {
 /*#3. indicator page */
 #toolbar {
   margin-top: 1.5rem !important;
+}
+button[role=tab]:focus {
+  background-color: transparent !important;
 }
 
 
@@ -328,12 +529,11 @@ body.contrast-high {
     padding-bottom: 20px;
 }
 
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-      display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-      display: block;
+// small screen: xs /show 1 item
+@media (max-width: 576px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
   }
 }
 .carousel-inner .carousel-item.active,
@@ -341,20 +541,48 @@ body.contrast-high {
 .carousel-inner .carousel-item-prev {
   display: flex;
 }
-// large screen
-@media (min-width: 768px) {
-  .carousel-inner .carousel-item-end.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(25%);
-  }
+// small screen: sm > md /show 2 items
+@media (min-width: 576px) and (max-width: 768px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    // shift starting position by 1/2
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(50%); }
     .carousel-inner .carousel-item-start.active, 
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-25%);
+    .carousel-inner .carousel-item-prev { transform: translateX(-50%); }
   }
 }
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-transform: translateX(0);
+// small screen: md > lg /show 3 items
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div + div { display: block; }
+    // shift starting position by 1/3
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(33.33%); }
+      .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-33.33%); }
+  }
+}
+// large screen /show 4 items
+@media (min-width: 992px) {
+  // shift starting position by 1/4
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(25%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-25%); }
+  }
+}
+@media (min-width: 576px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { transform: translateX(0); }
+  }
 }
 
 // drop shadow
@@ -380,6 +608,9 @@ transform: translateX(0);
   transform: translateY(-50%);
   text-decoration: none !important;
 }
+
+
+
 
 
 
@@ -462,6 +693,7 @@ h5 {
   font-size: 0.9rem; 
   font-weight: 300;
   padding-bottom: 0.5rem;
+  padding-left: 0.4rem;
 }
 
 @media screen and (max-width: 760px) {
@@ -472,14 +704,13 @@ h5 {
   }
   h5 {  
       text-align: center;
+      padding-left: 0rem;
   }
 } 
 
 
-
-
-
 // for all a href tags, remove thick black line after clicking (focus)
 [href]:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+  box-shadow: 0px 0px 0px 0px transparent !important;
+  background-color: transparent !important;
 }
