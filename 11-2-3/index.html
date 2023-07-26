@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230725015503">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230726014615">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -453,7 +453,7 @@ layout-indicator
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Amt&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Amt Eiderstedt&quot;,&quot;Amt Föhr-Land&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Amt&quot;},{&quot;name&quot;:&quot;Gemeinde&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Garding Kirchspiel&quot;,&quot;Garding Stadt&quot;,&quot;Grothusenkoog&quot;,&quot;Katharinenheerd&quot;,&quot;Kotzenbüll&quot;,&quot;Norderfriedrichskoog&quot;,&quot;Oldenswort&quot;,&quot;Osterhever&quot;,&quot;Poppenbüll&quot;,&quot;Sankt Peter-Ording&quot;,&quot;Tating&quot;,&quot;Tetenbüll&quot;,&quot;Tönning&quot;,&quot;Tümlauer Koog&quot;,&quot;Vollerwiek&quot;,&quot;Welt&quot;,&quot;Westerhever&quot;,&quot;Alkersum&quot;,&quot;Borgsum&quot;,&quot;Dunsum&quot;,&quot;Midlum&quot;,&quot;Nebel&quot;,&quot;Nieblum&quot;,&quot;Norddorf&quot;,&quot;Oevenum&quot;,&quot;Oldsum&quot;,&quot;Süderende&quot;,&quot;Utersum&quot;,&quot;Witsum&quot;,&quot;Wittdün&quot;,&quot;Wrixum&quot;,&quot;Wyk&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Gemeinde&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -484,201 +484,15 @@ layout-indicator
   <div id="datatables">
 
     
-    <a href="https://mapetersen.github.io/data-repo/de/headline/11-2-3.csv" class="btn btn-primary btn-download" download="indicator_11-2-3.csv" tabindex="0" role="button">Speichern der Headline im CSV-Format</a>
-    
     <a href="https://mapetersen.github.io/data-repo/de/data/11-2-3.csv" class="btn btn-primary btn-download" download='indicator_11-2-3.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
 
     <p class="no-js-disaggregation-hint"></p>
 
     
     <h3></h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>PKW-Dichte in Nordfriesland</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2008</td>
-          
-          
-          
-          <td class="table-value">88304</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2009</td>
-          
-          
-          
-          <td class="table-value">88344</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2010</td>
-          
-          
-          
-          <td class="table-value">89850</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2011</td>
-          
-          
-          
-          <td class="table-value">91177</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2012</td>
-          
-          
-          
-          <td class="table-value">92263</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2013</td>
-          
-          
-          
-          <td class="table-value">93095</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2014</td>
-          
-          
-          
-          <td class="table-value">93787</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">94875</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2016</td>
-          
-          
-          
-          <td class="table-value">96292</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2017</td>
-          
-          
-          
-          <td class="table-value">98386</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">100054</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td class="table-value">101766</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">103274</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    
-    <p>Geographische Abdeckung: Kreis Nordfriesland</p>
-    
-    
-    <p>Einheit: Anzahl private PKW / Anzahl Einwohner * 1.000</p>
-    
-    
-  </div>
   
 
 </div>
@@ -1462,12 +1276,12 @@ data-event-label="Change to Metadaten tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230725015503'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230726014615'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230725015503"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230726014615"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
